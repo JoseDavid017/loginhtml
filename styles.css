@@ -1,0 +1,133 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: #161717;
+}
+h3{
+    align-self: flex-start;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+}
+.btns{
+   display: flex;
+   gap: 20px;
+   align-self: flex-start;
+}
+.btn-google{
+    
+    border-radius: 5px;
+    background-color: rgb(0, 89, 255);
+    border: none;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.btn-google span{
+    color: white;
+    font-weight: 500;
+
+}
+picture{
+    border-radius: 2px;
+    width: 36px;
+    height: 36px;
+    color: white;
+    background-color: white;
+    display: flex;
+}
+img{
+    width: 36px;
+    display: flex;
+}
+.btn-twitter{
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.btn-google:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.btn-twitter:hover{
+    opacity: 0.75;
+    cursor:pointer;
+}
+.line{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.line hr{
+    flex-grow: 1;
+}
+.register {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.register label input{
+    width: 80%;
+
+}
+label{
+    display: flex;
+    gap:5px;
+    flex-direction:column;
+}
+label input{
+    width: 90%;
+    background-color:#212121;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadown 0.2s;
+
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
+    gap:20px;  
+}
+input:hover{
+    background-color:#454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 10px rgba(151, 27, 79, 0.623);
+}
+input:focus{
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4 rgba(151, 27, 79, 0.623);
+}
+.labelchecbox{
+    display: flex;
+    flex-direction: row;
+}
+.labelchecbox input[type="checkbox"]{
+    width: 20px;
+}
+.btn-crear{
+    background-color:rgb(255, 121, 143);
+    color:white ;
+    border-radius: 5px ;
+    width: 90%;
+    border: none;
+    padding:10px;
+
+}
+.btn-crear:hover{
+    opacity: 0.7;
+}
